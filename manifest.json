@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "New Tab on Startup",
+  "version": "1.0",
+
+  "description": "Creates, or switches to, a new tab on browser startup. For use when settings are set to restore previous windows and tabs.",
+  "author": "firebird42",
+  "homepage_url": "https://github.com/firebird42/new-tab-on-startup",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+
+  "permissions": [
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
